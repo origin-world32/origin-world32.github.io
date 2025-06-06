@@ -95,6 +95,23 @@
     .my-skills-text{
         font-size: 15px;
     }
+    .my-skills{
+    height: auto;
+   }
+   .my-skills .section-title{
+    padding-top: 20px;
+   }
+
+   .my-skills-contents{
+    display: block;
+   }
+   .my-skills-contents h1{
+    padding-top: 35px;
+   }
+   .frontend,.backend,.tool{
+
+    width: 100%;
+   }
     .my-skills-contents span{
         font-size: 10px;
     }
@@ -149,9 +166,25 @@
     display: inline-block;
     padding: 5px 0;
    }
+       .my-skills{
+    height: auto;
+   }
    .my-skills .section-title{
     padding-top: 20px;
    }
+
+   .my-skills-contents{
+    display: block;
+   }
+   .my-skills-contents h1{
+    padding-top: 35px;
+   }
+   .frontend,.backend,.tool{
+
+    width: 100%;
+   }
+    
+  
    .contact .section-title{
     padding-top: 20px;
 
