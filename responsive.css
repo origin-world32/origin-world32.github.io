@@ -116,6 +116,9 @@
 
         width: 80%;
     }
+    .clear{
+        clear: left;
+    }
 
 }
 
@@ -153,6 +156,11 @@
     padding-top: 20px;
 
    }
+    .clear{
+        clear:left;
+    }
+    
+
 
 
 }
