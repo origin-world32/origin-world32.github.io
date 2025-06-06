@@ -118,3 +118,42 @@
     }
 
 }
+
+@media(max-width:400px){
+   .header-top a{
+    font-size: 10px;
+
+
+   }
+
+
+   .main-title h1{
+    font-size: 24px;
+
+   }
+   .contents-me img{
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+   }
+   .introdaction h2{
+    margin: 27px 0;
+
+   }
+   .introdaction p{
+    display: inline-block;
+    padding: 5px 0;
+   }
+   .my-skills .section-title{
+    padding-top: 20px;
+   }
+   .contact .section-title{
+    padding-top: 20px;
+
+   }
+
+
+}
+
