@@ -59,6 +59,7 @@ main{
     background-image: url(header-img.jpg);
     background-size: cover;
     background-position: center;
+  　background-attachment: fixed;
    
     height: calc(100vh - 100px);
     display: flex;
