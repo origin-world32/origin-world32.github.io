@@ -56,7 +56,7 @@ main{
 }
 
 .main-title{
-    background-image: url(headr-img.jpg);
+    background-image: url(../IMG/header-img.jpg);
     background-size: cover;
     background-position: center;
   　background-attachment: fixed;
