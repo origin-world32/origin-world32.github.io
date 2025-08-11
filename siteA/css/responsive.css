@@ -1,0 +1,141 @@
+@media (max-width: 1024px) { /* タブレット以下 */
+    header{
+        background-position: 40% center ;
+
+
+    }
+    .main-1{
+        height: auto;
+
+    }
+    .main-1 .text-area p{
+
+        width: 72%;
+    }
+    .main-1 .image-area{
+        position: relative;
+        
+
+
+    }
+    .main-1 .image-area img{
+        margin: 10px;
+        width: 46%;
+        height: 46%;
+    }
+    .main-1 .image-area .Arc{
+        top: 120px;
+        left: 48px;
+    }
+    .main-1 .image-area .New{
+        top: 120px;
+        left: 446px;
+    }
+    .main-2{
+        background-position: center;
+        height: 600px;
+        padding: 24px 26px;
+    }
+    .main-3 .block{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .main-3 .block .text{
+        margin: 56px 50px 30px 50px;
+    }
+    footer .footer-wrapper{
+        padding: 40px 12px;
+    }
+    footer .footer-wrapper div{
+        margin-right: 14px;
+    }
+    
+
+  
+}
+@media (max-width: 480px) { /* スマホ以下 */
+    header{
+        background-position: 55% center ;
+
+
+    }
+    .main-1{
+        height: auto;
+    }
+    .main-1 .text-area p{
+        width: 80%;
+        font-size: 13px;
+
+    }
+    .main-1 .image-area{
+        position: relative;
+        flex-direction: column;
+
+
+    }
+    .main-1 .image-area img{
+        margin: 5px 30px;
+        width: 85%;
+        height: 85%;
+    }
+    .main-1 .image-area .Arc{
+        top: 100px;
+        left: 45px;
+    }
+    .main-1 .image-area .New{
+        top: 450px;
+        left: 45px;
+    }
+    .main-2{
+        background-position: center;
+        height: 600px;
+    }
+
+    .main-2 p{
+        margin: 0 auto;
+        width: 80%;
+        font-size: 13px;
+    }
+    .main-3 .block{
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    .main-3 .block img{
+        height: 85%;
+        width: 85%;
+    }
+    .main-3 .block .text{
+        margin: 0 auto;
+        font-size: 13px;
+
+        width: 80%;
+    }
+    .main-3 .block .text h2{
+        margin-bottom: 20px;
+
+    }
+    .main-3 .block .text p{
+        margin-bottom: 13px;
+    }
+    footer{
+
+        height: auto;
+    }
+    footer .footer-wrapper{
+        flex-direction: column;
+        padding: 30px 22px;
+       
+        
+
+    }
+    footer .footer-wrapper div{
+        margin-bottom: 40px;
+
+    }
+    footer .footer-wrapper div p{
+
+        font-size: 13px;
+    }
+  
+}
