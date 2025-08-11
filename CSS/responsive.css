@@ -206,6 +206,13 @@
    .works .text-contents p{
     font-size: 13px;
    }
+    .works .works-contents h3{
+    font-size: 13px;
+
+   }
+   .works .works-contents a{
+    font-size: 11px;
+   }
    .contact .section-title{
     padding-top: 20px;
 
