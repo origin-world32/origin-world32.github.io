@@ -23,6 +23,7 @@
 
 
     }
+  
 
 }
 
@@ -36,8 +37,8 @@
         padding: 5px;
     }
     .main-title{
-        height: calc(100dvh - 100px);
         background-position: 70% center ; /* 左に少し寄せる */
+        height: calc(100dvh - 100px);
     }
 
 
@@ -46,7 +47,7 @@
         font-size: 28px;
     }
     .section-title{
-        padding-top: 100px;
+        padding-top: 80px;
         padding-bottom:30px;
         
 
@@ -97,22 +98,22 @@
         font-size: 15px;
     }
     .my-skills{
-    height: auto;
-   }
-   .my-skills .section-title{
-    padding-top: 20px;
-   }
+        height: auto;
+    }
+    .my-skills .section-title{
+        padding-top: 20px;
+    }
 
    .my-skills-contents{
     display: block;
    }
    .my-skills-contents h1{
-    padding-top: 35px;
-   }
-   .frontend,.backend,.tool{
+        padding-top: 35px;
+    }
+    .frontend,.backend,.tool{
 
-    width: 100%;
-   }
+        width: 100%;
+    }
     .my-skills-contents span{
         font-size: 10px;
     }
@@ -134,11 +135,15 @@
 
         width: 80%;
     }
+
     .clear{
-        clear: left;
-    }
+    clear: left;
+   }
 
 }
+
+
+
 
 
 @media(max-width:400px){
@@ -206,13 +211,23 @@
    .works .text-contents p{
     font-size: 13px;
    }
-    .works .works-contents h3{
+   .works .works-contents h3{
     font-size: 13px;
 
    }
    .works .works-contents a{
     font-size: 11px;
    }
+
+
+
+   .works-contents .Copying .copy-contents {
+    grid-template-columns: 1fr; /* 1列に変更 */
+   }
+   .works-contents .webservice .web-contents {
+    grid-template-columns: 1fr; /* 1列に変更 */
+   }
+
    .contact .section-title{
     padding-top: 20px;
 
