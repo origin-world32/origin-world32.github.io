@@ -1,0 +1,107 @@
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 1024px) {
+
+  /*-------------------------------------------
+  TOP、PRODUCTS
+  -------------------------------------------*/
+  .item-list{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px;
+}
+
+    
+
+  /*-------------------------------------------
+  ITEM
+  -------------------------------------------*/
+    .item-main .item-contents img{
+
+        width: 60%;
+        height: 60%;
+        
+
+
+
+
+    }
+    .item-contents .item-text{
+        display: block;
+    }
+
+    .item-text > div{
+        padding: 40px 0 0 0;
+        
+
+    }
+
+  /*-------------------------------------------
+  COMPANY
+  -------------------------------------------*/
+
+
+  /*-------------------------------------------
+  フッター
+  -------------------------------------------*/
+}
+
+
+@media screen and (max-width: 414px) {
+
+    .open #navi {
+        left: -70px;
+        top: 15px;
+        opacity: 1;
+    }
+
+    .about-main .wrapper{
+        width: 90%;
+
+
+    }
+    .about-main .wrapper h2{
+        font-size: 19px;
+
+
+    }
+    .about-main .wrapper .text-contents{
+        padding: 0;
+
+
+    }
+
+
+    .company-item dt{
+        width: 30%;
+
+    }
+    .company-item dd{
+        width: 100%;
+
+    }
+    /* グーグルマップのサイズを設定 */
+    .company-main .wrapper .map iframe {
+        width: 100%;
+        height: 300px;
+        border: 0;
+    }
+
+
+  
+  
+
+
+    footer .menu a{
+        font-size: 9px;
+
+
+    }
+    footer .wrapper p{
+
+        font-size: 8px;
+    }
+
+}
