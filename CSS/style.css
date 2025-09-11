@@ -56,7 +56,7 @@ main{
 }
 
 .main-title{
-    background-image: url(../IMG/header-img.jpg);
+    background-image: url(../img/header-img.jpg);
     background-size: cover;
     background-position: center;
     height: calc(100vh - 100px);
@@ -201,21 +201,55 @@ main{
 }
 
 .works-contents >div{
-    text-align: center;
-
-    width: 40%;
-}
-.works-contents h3{
-    margin-bottom: 15px;
-}
-.works-contents a{
     
-    color: black;
+    width: 45%;
 }
-.works-contents span{
+.works-contents .title{
+    text-align: center;
+}
+
+.works-contents h3{
+    display: inline-block;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+.works-contents .Copying p{
     font-size: 12px;
 }
-
+.works-contents .Copying .copy-contents{
+    text-align: center;
+    padding: 9px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 9px;
+}
+.works-contents .Copying .copy-contents img{
+    border-radius: 14px;
+    border: solid 1px rgb(172, 172, 172);
+    max-width: 100%;  /* 親の幅を超えない */
+    height: auto;     /* アスペクト比を保つ */
+    display: block;   /* 余計な余白をなくす */
+    margin: 0 auto;   /* 中央寄せ */
+   
+}
+.works-contents .webservice p{
+    font-size: 12px;
+}
+.works-contents .webservice .web-contents{
+    text-align: center;
+    padding: 9px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 9px;
+}.works-contents .webservice .web-contents img{
+    border-radius: 14px;
+    border: solid 1px rgb(172, 172, 172);
+    max-width: 100%;  /* 親の幅を超えない */
+    height: auto;     /* アスペクト比を保つ */
+    display: block;   /* 余計な余白をなくす */
+    margin: 0 auto;   /* 中央寄せ */
+   
+}
 /* -----------------------contact---------------------------- */
 
 .contact{
