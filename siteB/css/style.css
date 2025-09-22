@@ -279,6 +279,7 @@ COMPANY
 }
 .item-text img{
     width: 32%;
+    max-width:100%;
     
 }
 .item-text{
@@ -315,3 +316,4 @@ COMPANY
     padding: 44px 0;
 
 }
+
