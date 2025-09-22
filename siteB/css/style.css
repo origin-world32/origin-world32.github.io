@@ -130,6 +130,7 @@ main .wrapper img{
     width: 100%;
     height: auto;
     display: block;
+    max-width: 100%;
 }
 
 .item-list{
@@ -198,9 +199,7 @@ main .wrapper .link-pages{
 
 
 }
-main .wrapper .img{
-    max-width: 100%; 
-}
+
 .link-pages li{
 
     padding: 0 20px;
@@ -318,4 +317,5 @@ COMPANY
     padding: 44px 0;
 
 }
+
 
