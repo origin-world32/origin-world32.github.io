@@ -130,6 +130,7 @@ main .item-list .img{
     width: 100%;
     height: auto;
     display: block;
+    max-width: 100%;
 }
 
 .item-list{
@@ -316,6 +317,7 @@ COMPANY
     padding: 44px 0;
 
 }
+
 
 
 
