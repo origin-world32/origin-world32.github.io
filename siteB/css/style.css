@@ -126,7 +126,7 @@ main{
     margin-bottom: 80px;
 }
 
-main .wrapper img{
+main .wrapper .item-list .img{
     width: 100%;
     height: auto;
     display: block;
@@ -316,4 +316,5 @@ COMPANY
     padding: 44px 0;
 
 }
+
 
