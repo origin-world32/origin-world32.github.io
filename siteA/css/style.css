@@ -3,6 +3,16 @@ header{
     background-image:url(../img/mainvisual.jpg);
 
 }
+header div {
+    display: flex;
+    justify-content: center; /* 横中央 */
+    align-items: center;     /* 縦中央 */
+    height: 100%;
+}
+header div p{
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
 .img-logo{
     margin: 20px;
     float: right;
